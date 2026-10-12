@@ -15,12 +15,12 @@ class Categorypage extends StatelessWidget {
       crossAxisSpacing: 10,
         mainAxisSpacing: 10,
         children: [
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
         ],
       );
     }
@@ -31,12 +31,12 @@ class Categorypage extends StatelessWidget {
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
           children: [
-            Productcard(name:"", price:500, imageUrl:""),
-            Productcard(name:"", price:500, imageUrl:""),
-            Productcard(name:"", price:500, imageUrl:""),
-            Productcard(name:"", price:500, imageUrl:""),
-            Productcard(name:"", price:500, imageUrl:""),
-            Productcard(name:"", price:500, imageUrl:""),
+            Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+            Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+            Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+            Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+            Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+            Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
           ],
       );
     }
@@ -47,12 +47,12 @@ class Categorypage extends StatelessWidget {
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
         children: [
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
         ],
       );
     }
@@ -63,12 +63,12 @@ class Categorypage extends StatelessWidget {
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
         children: [
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
         ],
       );
     }
@@ -79,12 +79,12 @@ class Categorypage extends StatelessWidget {
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
         children: [
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
         ],
       );
     }
@@ -95,12 +95,12 @@ class Categorypage extends StatelessWidget {
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
         children: [
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
         ],
       );
     }
@@ -111,12 +111,12 @@ class Categorypage extends StatelessWidget {
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
         children: [
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
-          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+          Productcard(name: "Sunglasses", price: 1200,category: "Man",description: "Black Shades",rating: 4, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
         ],
       );
     }

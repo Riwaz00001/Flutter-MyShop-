@@ -1,10 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:myshop/ProductDetail.dart';
 
 class Productcard extends StatelessWidget {
   final String name;
   final int price;
   final String imageUrl;
-  const Productcard({super.key,required this.name,required this.price,required this.imageUrl});
+  final String category;
+  final double rating;
+  final String description;
+  const Productcard({
+    super.key,
+    required this.name,
+    required this.price,
+    required this.imageUrl,
+  required this.category,
+    required this.description,
+    required this.rating,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -25,14 +37,19 @@ class Productcard extends StatelessWidget {
                 children: [
               Text("Rs. $price",style: TextStyle(fontSize:14),),
                 SizedBox(width: 10,),
-                ElevatedButton(onPressed: ()=>{},
+                ElevatedButton(onPressed: ()=>{
+                  Navigator.push(context,
+                  MaterialPageRoute(builder:
+                      (context)=>Product(name: name, category: category, img_url: imageUrl, price: price, rating: rating, description: description)
+                  ))
+                },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.black,
                       foregroundColor: Colors.white
                     ),
                     child:
                     Text("View",style: TextStyle(fontSize:12),)
-              )    
+              )
               ]
               )
             ],
