@@ -86,7 +86,26 @@ class Product extends StatelessWidget {
                 backgroundColor: Colors.black,
                 foregroundColor: Colors.white
               ),
-                onPressed: (){},
+                onPressed: (){
+                ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                        content:
+                        Row(
+                          children: [
+                            Icon(Icons.check_circle,color: Colors.white,),
+                            SizedBox(width: 10,),
+                            Expanded(child:
+                            Text("Product added to cart!",
+                            style:TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.w500
+                            )))
+                          ],
+                        )
+                    )
+                );
+                },
                 child:
                 Text("Add to Cart")),
           ),
