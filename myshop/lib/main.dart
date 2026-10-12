@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:myshop/ProductCard.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -123,6 +124,7 @@ class _HomeState extends State<Home> {
         child:
         Column(
           children: [
+            //banners
           CarouselSlider(
             options: CarouselOptions(
               height: 180,
@@ -134,9 +136,10 @@ class _HomeState extends State<Home> {
               bannerItem(size,"https://images.pexels.com/photos/12920900/pexels-photo-12920900.jpeg","Summer Sale","Up to 30% OFF"),
               bannerItem(size, "https://images.pexels.com/photos/13155692/pexels-photo-13155692.jpeg", "Dashain Special","14% Discount"),
               bannerItem(size, "https://images.pexels.com/photos/7953286/pexels-photo-7953286.jpeg", "Dashain Special","Up to 10% OFF"),
-              bannerItem(size,"https://images.pexels.com/photos/33039735/pexels-photo-33039735.jpeg","Summer Sale","Up to 25% Discount")
+              bannerItem(size,"https://images.pexels.com/photos/33039735/pexels-photo-33039735.jpeg","Summer Sale","Up to 25% Discount"),
             ],
           ),
+            //Categories Section
             Container(
               margin:EdgeInsets.all(30),
               child:
@@ -173,13 +176,37 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                           category_icons(Icons.brush,"Beauty"),
-                          category_icons(Icons.chair,"Decor"),
-                          category_icons(Icons.home,"Home")
+                          category_icons(Icons.chair,"Decor")
                         ],
                       ),
                     )
                 ],
               )
+            ),
+            //Product Section
+            Text("Products",style: TextStyle(fontSize:24,fontWeight: FontWeight.bold),),
+            GridView.count(
+              crossAxisCount: 2,
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              padding: const EdgeInsets.all(12),
+              crossAxisSpacing: 10,
+              mainAxisSpacing: 10,
+              childAspectRatio: 0.75,
+              children: [
+                Productcard(name: "Running Shoes", price: 2500, imageUrl: "https://media.istockphoto.com/id/1337191336/photo/black-fashion-sport-shoe-on-white-background.jpg?b=1&s=612x612&w=0&k=20&c=XoDOiSP0-CUGJYVihWg5iDu-MlyNeHK6IUYxFQc6_zw="),
+                Productcard(name: "Handbag", price: 3200, imageUrl: "https://media.istockphoto.com/id/2204715822/photo/luxury-stylish-womens-female-red-brown-leather-hand-bag.jpg?b=1&s=612x612&w=0&k=20&c=r3Bzk6CjcfHvGroRQ0JIhjQ00VEZX3QD3OiAJXgtUcc="),
+                Productcard(name: "Watch", price: 4500, imageUrl: "https://media.istockphoto.com/id/1180244659/photo/luxury-watch-isolated-on-white-background-with-clipping-path-for-artwork-or-design-black.jpg?b=1&s=612x612&w=0&k=20&c=qpk35u3151b3C0VYnKOL-x0wMdypGS78Ea01kanxaAc="),
+                Productcard(name: "Sunglasses", price: 1200, imageUrl: "https://images.pexels.com/photos/10837794/pexels-photo-10837794.jpeg"),
+                Productcard(name: "Ring", price: 10000, imageUrl: "https://media.istockphoto.com/id/157337569/photo/diamond-ring.jpg?b=1&s=612x612&w=0&k=20&c=s53QRfUauGuFIw7b5cyi1jtNpeOHRiheqK3w7MqZDEQ="),
+                Productcard(name: "Lip Stick", price: 500, imageUrl: "https://images.pexels.com/photos/7810641/pexels-photo-7810641.jpeg"),
+                Productcard(name: "Vase", price: 5000, imageUrl: "https://images.pexels.com/photos/18633243/pexels-photo-18633243.jpeg"),
+                Productcard(name: "Jacket", price: 3000, imageUrl: "https://media.istockphoto.com/id/163208487/photo/male-coat-isolated-on-the-white.jpg?b=1&s=612x612&w=0&k=20&c=VHq7Kl0jekLwjdYFCPTiS51kVuRfHmBQddW545iRZ1E="),
+              ],
+            ),
+            //spacing from phones nav bar
+            SizedBox(
+              height: 40,
             )
         ]),
       ),
