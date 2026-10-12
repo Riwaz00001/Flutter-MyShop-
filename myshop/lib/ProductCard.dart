@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Productcard extends StatelessWidget {
   final String name;
-  final double price;
+  final int price;
   final String imageUrl;
   const Productcard({super.key,required this.name,required this.price,required this.imageUrl});
 
@@ -21,7 +21,20 @@ class Productcard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(name,style:const TextStyle(fontWeight: FontWeight.bold)),
-              Text("Rs. $price")
+              Row(
+                children: [
+              Text("Rs. $price",style: TextStyle(fontSize:14),),
+                SizedBox(width: 10,),
+                ElevatedButton(onPressed: ()=>{},
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.black,
+                      foregroundColor: Colors.white
+                    ),
+                    child:
+                    Text("View",style: TextStyle(fontSize:12),)
+              )    
+              ]
+              )
             ],
           ),
           )

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:myshop/CategoryPage.dart';
 import 'package:myshop/ProductCard.dart';
 void main() {
   runApp(const MyApp());
@@ -88,7 +89,12 @@ class _HomeState extends State<Home> {
    return Padding(
        padding:const EdgeInsetsGeometry.symmetric(horizontal: 10),
       child: InkWell(
-        onTap: (){},
+        onTap: (){
+          Navigator.push(context,
+          MaterialPageRoute(builder:
+              (context)=>Categorypage(categoryName:label)
+          ));
+        },
         child: Column(
           children:[
             CircleAvatar(
