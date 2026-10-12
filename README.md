@@ -14,4 +14,4 @@
 <img width="367" height="798" alt="image" src="https://github.com/user-attachments/assets/075d9843-f1af-4e3b-9507-4584cf36ca0b" />
 
 ## Packages Used
-**1)**Carousel_Slider
+1)Carousel_Slider
