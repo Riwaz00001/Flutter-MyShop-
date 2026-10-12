@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myshop/ProductCard.dart';
 
 class Categorypage extends StatelessWidget {
   final String categoryName;
@@ -6,12 +7,125 @@ class Categorypage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Widget body;
+    if(categoryName=="Women"){
+      body=GridView.count(
+        crossAxisCount:2,
+      padding: const EdgeInsetsGeometry.all(10),
+      crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        children: [
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+        ],
+      );
+    }
+    else if(categoryName=="Man"){
+      body=GridView.count(
+          crossAxisCount:2,
+          padding: const EdgeInsetsGeometry.all(10),
+          crossAxisSpacing: 10,
+          mainAxisSpacing: 10,
+          children: [
+            Productcard(name:"", price:500, imageUrl:""),
+            Productcard(name:"", price:500, imageUrl:""),
+            Productcard(name:"", price:500, imageUrl:""),
+            Productcard(name:"", price:500, imageUrl:""),
+            Productcard(name:"", price:500, imageUrl:""),
+            Productcard(name:"", price:500, imageUrl:""),
+          ],
+      );
+    }
+    else if(categoryName=="Kids"){
+      body=GridView.count(
+        crossAxisCount:2,
+        padding: const EdgeInsetsGeometry.all(10),
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        children: [
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+        ],
+      );
+    }
+    else if(categoryName=="Jewelry"){
+      body=GridView.count(
+        crossAxisCount:2,
+        padding: const EdgeInsetsGeometry.all(10),
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        children: [
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+        ],
+      );
+    }
+    else if(categoryName=="Shoes"){
+      body=GridView.count(
+        crossAxisCount:2,
+        padding: const EdgeInsetsGeometry.all(10),
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        children: [
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+        ],
+      );
+    }
+    else if(categoryName=="Beauty"){
+      body=GridView.count(
+        crossAxisCount:2,
+        padding: const EdgeInsetsGeometry.all(10),
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        children: [
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+        ],
+      );
+    }
+    else if(categoryName=="Decor"){
+      body=GridView.count(
+        crossAxisCount:2,
+        padding: const EdgeInsetsGeometry.all(10),
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        children: [
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+          Productcard(name:"", price:500, imageUrl:""),
+        ],
+      );
+    }
+    else{
+      body=Center(child: Text("$categoryName not found!!!!",style: TextStyle(fontSize: 32,fontWeight: FontWeight.bold),));
+    }
     return Scaffold(
-      appBar: AppBar(),
-      body: Center(
-        child:
-        Text("This is it"),
-      )
+      appBar: AppBar(title: Text(categoryName),),
+      body: body,
     );
   }
 }

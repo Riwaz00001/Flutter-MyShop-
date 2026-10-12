@@ -165,7 +165,12 @@ class _HomeState extends State<Home> {
                           Padding(
                             padding:const EdgeInsetsGeometry.symmetric(horizontal: 10),
                             child: InkWell(
-                              onTap: (){},
+                              onTap: (){
+                                Navigator.push(context,
+                                    MaterialPageRoute(builder:
+                                        (context)=>Categorypage(categoryName:"Shoes")
+                                    ));
+                              },
                               child: Column(
                                   children:[
                                     CircleAvatar(
